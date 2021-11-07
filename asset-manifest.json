@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nested-tree/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/nested-tree/static/js/main.94ca3e30.chunk.js",
+    "main.js.map": "/nested-tree/static/js/main.94ca3e30.chunk.js.map",
+    "runtime-main.js": "/nested-tree/static/js/runtime-main.bc925af3.js",
+    "runtime-main.js.map": "/nested-tree/static/js/runtime-main.bc925af3.js.map",
+    "static/js/2.af552bf5.chunk.js": "/nested-tree/static/js/2.af552bf5.chunk.js",
+    "static/js/2.af552bf5.chunk.js.map": "/nested-tree/static/js/2.af552bf5.chunk.js.map",
+    "static/js/3.eea4dc20.chunk.js": "/nested-tree/static/js/3.eea4dc20.chunk.js",
+    "static/js/3.eea4dc20.chunk.js.map": "/nested-tree/static/js/3.eea4dc20.chunk.js.map",
+    "index.html": "/nested-tree/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/nested-tree/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.af552bf5.chunk.js.LICENSE.txt": "/nested-tree/static/js/2.af552bf5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc925af3.js",
+    "static/js/2.af552bf5.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.94ca3e30.chunk.js"
+  ]
+}
