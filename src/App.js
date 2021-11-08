@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import GlobalStyle from './theme/globalStyles';
 import { ColumnCustomize } from './container-components/';
 import { BsColumnsGap } from 'react-icons/bs';
+import { mockJson } from "./constants";
 
 const SideBar = styled.aside`
 	position: fixed;
@@ -60,59 +61,6 @@ const ResetButton = styled.button`
 	letter-spacing: 0.4px;
 	cursor: pointer;
 `;
-
-const mockJson = [
-	{
-		id: '1',
-		parentId: '0',
-		label: 'Participant'
-	},
-	{
-		id: '2',
-		parentId: '1',
-		label: 'Name'
-	},
-	{
-		id: '3',
-		parentId: '1',
-		label: 'Language'
-	},
-	{
-		id: '4',
-		parentId: '1',
-		label: 'Country'
-	},
-	{
-		id: '5',
-		parentId: '0',
-		label: 'Game of choice'
-	},
-	{
-		id: '6',
-		parentId: '5',
-		label: 'Game name'
-	},
-	{
-		id: '7',
-		parentId: '5',
-		label: 'Bought'
-	},
-	{
-		id: '8',
-		parentId: '0',
-		label: 'Performance'
-	},
-	{
-		id: '9',
-		parentId: '8',
-		label: 'Bank balance'
-	},
-	{
-		id: '10',
-		parentId: '8',
-		label: 'Extra info'
-	}
-];
 
 function checkLocalStorage() {
 	if (localStorage.getItem('ops_columns') === null) {
